@@ -1,0 +1,33 @@
+{
+  "name": "master-cook",
+  "version": "1.0.0",
+  "description": "An app to help you cook the day to day",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeteSalcedo/Super-Cook.git"
+  },
+  "keywords": [
+    "Recipe",
+    "app"
+  ],
+  "author": "Pete Salcedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeteSalcedo/Super-Cook/issues"
+  },
+  "homepage": "https://github.com/PeteSalcedo/Super-Cook#readme"
+}
