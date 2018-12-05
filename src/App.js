@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Form from "./components/Form.js"
+import Recipes from "./components/Recipes"
 
 const API_KEY = "Your api key here";
 
@@ -29,14 +30,7 @@ class App extends Component {
           <h1 className="App-title">Recipe Search</h1>
         </header>
         <Form getRecipe={this.getRecipe} /> 
-        { this.state.recipes.map((recipe) => {
-          return ( 
-          <div>
-            <img src={recipe.image_url} alt={recipe.title}/>
-          <p key= {recipe.recipe_id}>{recipe.title}</p>
-          </div>
-          );
-        })}
+       <Recipes recipes={this.state.recipes} />
       </div>
     );
   }
