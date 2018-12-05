@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Form from "./components/Form.js"
+const API_KEY = ""
+
 
 class App extends Component {
   getRecipe = (e) => {
     const recipeName = e.target.elements.recipeName.value;
     e.preventDefault();
+    const api_call = "https://www.food2fork.com/api/search?key=&q=shredded%20chicken"
+
     console.log(recipeName)
   }
   render() {
